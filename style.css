@@ -1,0 +1,33 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.bookform{
+  margin-left: 250px;
+  height: 250px;
+  width: 50%;
+  box-sizing: border-box;
+  border-color: aliceblue;
+  background-color: peachpuff;
+  text-align: center;
+  border: 5px solid papayawhip ;
+}
+
+@media screen and (max-width : 768px) {
+  body{
+    background-color: beige;
+    font-size: 14px;
+
+  }
+  .img{
+    width: 100%;
+  }
+}
+@media  screen and (min-width : 769px) {
+  body{
+    background-color: antiquewhite;
+    font-size: 16px;
+  }
+ 
+  
+}

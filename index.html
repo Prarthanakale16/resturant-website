@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rimberio Restaurant Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Bootstrap cdn-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!--Font Icon cdn-->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="https://marketplace.canva.com/EAGZJ2Na9V0/1/0/1600w/canva-red-and-orange-bold-fast-food-restaurant-animated-logo-0ujmrXVcncU.jpg"
+       height="90px" width="180%"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+     <button style="background-color: red; border-color: brown;">   <li class="nav-item">
+      <a class="nav-link" href="book.html">Book Table</a></li></button>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- middle Section -->
+<header class="hero d-flex align-items-center justify-content-center text-white text-center">
+  <div class="img">
+ <img src="burger.png" style="margin-left: -400px;" height="400px" width="250%">  
+<button  style="background-color: azure; border: 2px solid azure;" onclick="changeBackground()">
+<a href="#" class="btn btn-warning mt-4">ORDER NOW</a></button>
+<script>
+function changeBackground() {   
+document.body.style.backgroundColor =  
+document.body.style.backgroundColor === 'lightpink' ? 'white' : 'lightpink';
+    }
+  </script>
+  </div>
+</header>
+<section class="container py-5">
+  <h2 class="text-center mb-4">Recommanded  Dishes</h2>
+  <div class="row g-4">
+    <!-- menu section -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://thewoodenskillet.com/wp-content/uploads/2023/03/creamy-tomato-pasta-recipe-1.jpg" class="card-img-top" alt="Burger">
+        <div class="card-body">
+          <h5 class="card-title">Creamy Pasta</h5>
+          <p class="card-text">$9.99</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0fLI_OX5Wm8TaIWVLTusNFVbw-z50erizwg&s" class="card-img-top" alt="Pasta">
+        <div class="card-body">
+          <h5 class="card-title">Fresh Salad</h5>
+          <p class="card-text">$12.49</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCOYhktn9rUURz1YRxxxPH5lcrJopmqobdrSwlnaXzuAfe_i_LFiX2zFX1IoMCyMuDjL8&usqp=CAU" class="card-img-top" alt="Salad">
+        <div class="card-body">
+          <h5 class="card-title">Pizza</h5>
+          <p class="card-text">$10.50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-black text-white pt-5 pb-3 mt-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Quick Links</h4>
+        <ul class="list-unstyled">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="menu.html">Menu</a></li>
+          <li><a class="nav-link" href="aboutus.html">About Us</a></li>
+          <li><a class="nav-link" href="book.html">Book Table</a></li>
+         </ul>
+      </div>
+
+      <div class="col-md-4">
+        <h4>Address</h4>
+<p>290 Fc Road , Port Hurons, Pune</p>
+<p>Phone</p>
+<p>+91  800 478 23 53</p>
+<p>Mail</p>
+<p>info@rimberio.com</p>
+<p>Social Media</p>
+ <h5> <div class="icons">
+          &nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="#"><ion-icon name="mail-outline"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-youtube"></ion-icon></a></h5>
+          </div>
+          <div class="col-md-4">
+            <h4>Opening</h4>
+            <h6 style="color: orange;">Monday - Saturday</h6>
+            <p>8AM - 10PM</p>
+            <h6 style="color: orange;">Sunday</h6>
+            <p>10AM - 9PM</p>
+          </div>
+        </div>
+    </div>
+  </div>
+  </div>
+  
+
+<footer class="bg-dark text-white text-center p-3">
+  &copy; 2025 Rimberio Restaurant | All rights reserved.                                     
+</footer>
+</body>
+</html>
